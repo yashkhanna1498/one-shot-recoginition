@@ -17,3 +17,10 @@ Very often, learning in siamese networks is done by the triplet loss function. S
 FaceNet is a siamese network architecture developed by Google in 2015. They use a deep CNN to directly optimize the embedding itself, rather than an intermediate bottleneck layer as seen in previous approaches.for a given anchor image a, they use triplets that violate the triplet constraint, by selecting the inputs p and n such that d(a, p) is maximized, and d(a, n) is minimized.
 
 
+#### References
+https://www.coursera.org/lecture/convolutional-neural-networks/one-shot-learning-gjckG
+https://machinelearningmastery.com/one-shot-learning-with-siamese-networks-contrastive-and-triplet-loss-for-face-recognition/
+https://heartbeat.fritz.ai/one-shot-learning-part-2-2-facial-recognition-using-a-siamese-network-5aee53196255
+https://hub.packtpub.com/face-recognition-using-siamese-networks-tutorial/
+https://blog.netcetera.com/face-recognition-using-one-shot-learning-a7cf2b91e96c
+https://arxiv.org/abs/1503.03832 
