@@ -12,9 +12,9 @@ Very often, learning in siamese networks is done by the triplet loss function. S
 - Calculate the Euclidean distances d(a, p) and d(a, n). Ideally, the first distance should be as small as possible, while the latter should be as big as possible.
 - The loss function is defined as: L = max(d(a, p)- d(a,n) + α, 0), where α is a parameter that defines how far away the dissimilarities should be, and enforces a distinction between the positive and the negative image.
 
-Procedure to implement Siamese Neural Network (SNN) :
-1)Take an input and extract its embedding (mapping to a vector of continuous numbers) by passing it through a neural network.
-2)Repeat step 1 with a different input.
+Procedure to implement Siamese Neural Network (SNN) : <br>
+1)Take an input and extract its embedding (mapping to a vector of continuous numbers) by passing it through a neural network. <br>
+2)Repeat step 1 with a different input. <br>
 3)Compare the two embeddings to check whether there is a similarity between the two data points. These two embeddings act as a latent feature representation of the data. In our case, images with the same person should have similar embeddings.
 
 Very often, learning in siamese networks is done by the triplet loss function(contrastive loss/loss function dependent on distance). Such models require three input images on training phase, and the loss is calculated as:
